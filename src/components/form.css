@@ -1,0 +1,137 @@
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    /* height: 100vh; */
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.form-body{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 1rem;
+
+}
+.form-body h1{
+    text-align: center;
+}
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-field{
+    width: 48%;
+    margin-top: 2rem;
+}
+.input-field-a{
+    width: 48%;
+}
+label{
+    font-size: 1rem;
+    font-weight: 550;
+   
+}
+.input-field-a-b{
+    width: 25%;
+}
+span{
+    color: red;
+}
+.input-container input, select{
+    width: 100%;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 1rem;
+    margin-top: .3rem;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: .25rem;
+}
+.c-container{
+    display:flex;
+    align-items: center;
+  gap: 1rem;
+}
+
+.r-address-container{
+    margin-top: 2rem;
+}
+
+.error{
+    color: red;
+    font-size: 1rem;
+}
+h3{
+    font-weight: normal;
+}
+.add-btn{
+    background-color: red;
+    padding: .5rem 1rem .5rem 1rem;
+    margin-top: 1.7rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.add-btn-1{
+    background-color: black;
+    padding: .5rem 1rem .5rem 1rem;
+    /* margin-top: 1.7rem; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.icon{
+    font-size: 1.5rem;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.btn-container button{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: .8rem 4rem .8rem 4rem;
+    border: none;
+    outline: none;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+.add-btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (max-width:800px) {
+    .form-body{
+        width: 80%;
+    }
+    .input-container{
+        flex-direction: column;
+    }
+    .input-field{
+        width: 100%;
+    }
+    .input-field-a{
+        width: 100%;
+    }
+    .input-field-a-b{
+        width: 100%;
+    }
+    .add-btn{
+        width: 100%;
+    }
+    .btn-container button{
+        width: 100%;
+    }
+}
